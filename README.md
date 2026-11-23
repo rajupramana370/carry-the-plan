@@ -1,8 +1,8 @@
 # Carry the Plan — $100 to the Most in 30 Days
 
-![make.fun](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138.svg)
-![rank](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/rajupramana370/carry-the-plan/rank.svg)
-![reward](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/rajupramana370/carry-the-plan/reward.svg)
+[![make.fun · the-plan-make-fun-will-carry-20261122-2138](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
+[![rank](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/rajupramana370/carry-the-plan/rank.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
+[![reward](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/rajupramana370/carry-the-plan/reward.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
 
 This program writes a single 30-day plan for turning $100 into digital-product income: mine proven niches on day 1, list AI-built digital products on days 2–5, then promote them with daily short videos and reinvest profit into the best-selling niche through day 30. It is an entry for the make.fun competition "The plan make.fun will carry out in public" — https://make.fun
 
