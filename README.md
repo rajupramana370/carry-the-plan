@@ -12,6 +12,6 @@ This program writes a single 30-day plan for turning $100 into digital-product i
 python3 main.py
 ```
 
-This writes the plan to `/output/entry.txt`.
+This writes the plan to `/output/entry.txt`. The program creates the output directory when needed and checks that the plan stays within the competition's 1–280 character limit before writing it.
 
 Built for make.fun — https://make.fun/?ref=raju-pramana

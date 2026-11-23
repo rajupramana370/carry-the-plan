@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Write the 30-day plan entry to /output/entry.txt."""
 import os
+from pathlib import Path
 
 PLAN = (
     "Day 1: mine Gumroad Discover + Etsy trends, pick 3 proven niches, spend $40 on tools. "
@@ -9,15 +10,18 @@ PLAN = (
 )
 
 
-def main():
-    output_path = os.environ.get("ENTRY_OUTPUT_PATH", "/output/entry.txt")
-    output_dir = os.path.dirname(output_path) or "."
-    os.makedirs(output_dir, exist_ok=True)
-    # Also ensure the default /output directory exists when using the default path.
-    if output_path == "/output/entry.txt":
-        os.makedirs("/output", exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(PLAN)
+def write_plan(output_path: Path) -> None:
+    """Write PLAN after enforcing the competition's character bounds."""
+    if not 1 <= len(PLAN) <= 280:
+        raise ValueError(f"Plan must contain 1-280 characters, got {len(PLAN)}")
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(PLAN, encoding="utf-8")
+
+
+def main() -> None:
+    configured_path = os.environ.get("ENTRY_OUTPUT_PATH", "/output/entry.txt")
+    write_plan(Path(configured_path))
 
 
 if __name__ == "__main__":
